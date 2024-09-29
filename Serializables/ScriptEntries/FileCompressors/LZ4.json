@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\FileCompressors\\LZ4Compressor.bin",
+    "ScriptMetadata": {
+        "DocumentName": "LZ4 Compressor",
+        "PathToJScriptFile": "Scripts\\SourceCode\\FileCompressors\\LZ4Compressor.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"LZ4Compressor" : "ZCore.Modules.FileCompressors.LZ4Compressor"
+	}
+}

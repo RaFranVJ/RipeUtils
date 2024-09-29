@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\FileSecurity\\XorCryptor.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Exclusive-OR Files Cryptor",
+        "PathToJScriptFile": "Scripts\\SourceCode\\FileSecurity\\XorCryptor.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"XorCryptor" : "ZCore.Modules.FileSecurity.XorCryptor"
+	}
+}

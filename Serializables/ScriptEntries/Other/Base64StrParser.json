@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\Other\\Base64StringParser.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Base64 String Parser",
+        "PathToJScriptFile": "Scripts\\SourceCode\\Other\\Base64StringParser.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"Base64StringParser", "ZCore.Modules.Other.Base64StringParser"
+	}
+}

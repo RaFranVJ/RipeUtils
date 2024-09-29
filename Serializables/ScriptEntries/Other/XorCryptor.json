@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\Other\\XorBytesCryptor.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Exclusive-OR Bytes Cryptor",
+        "PathToJScriptFile": "Scripts\\SourceCode\\Other\\XorBytesCryptor.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+		"TypesToExpose" : {
+		"XorBytesCryptor" : "ZCore.Modules.Other.XorBytesCryptor"
+	}
+}

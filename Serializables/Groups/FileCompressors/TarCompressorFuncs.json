@@ -1,0 +1,5 @@
+{
+    "GroupID": 7,
+    "GroupName": "GROUP_TAR_COMPRESSOR",
+    "PathToFuncsDir": "Serializables\\Functions\\FileCompressors\\Tar\\"
+}

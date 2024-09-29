@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\SexyParsers\\Cfw2Parser.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Character Font Widget 2: PvZ",
+        "PathToJScriptFile": "Scripts\\SourceCode\\SexyParsers\\Cfw2Parser.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"Cfw2Parser" : "ZCore.Modules.SexyParsers.CharacterFontWidget2.Parser.Cfw2Parser"
+	}
+}

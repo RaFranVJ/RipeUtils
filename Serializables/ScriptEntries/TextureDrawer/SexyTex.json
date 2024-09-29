@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\TextureDrawer\\SexyTex.bin",
+    "ScriptMetadata": {
+        "DocumentName": "SexyTex Parser",
+        "PathToJScriptFile": "Scripts\\SourceCode\\TextureDrawer\\SexyTex.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"SexyTex" : "ZCore.Modules.TextureDrawer.Parsers.SexyTexture.SexyTexParser"
+	}
+}

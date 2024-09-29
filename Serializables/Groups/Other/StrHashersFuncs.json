@@ -1,0 +1,5 @@
+{
+    "GroupID": 5,
+    "GroupName": "GROUP_STRING_HASHERS",
+    "PathToFuncsDir": "Serializables\\Functions\\Other\\StrDigest\\"
+}

@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\SexyCompressors\\RsbCompressor.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Rsb Compressor for PvZ2",
+        "PathToJScriptFile": "Scripts\\SourceCode\\SexyCompressors\\RsbCompressor.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"RsbCompressor" : "ZCore.Modules.SexyCompressors.ResourceStreamBundle.Methods.RsbCompressor"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\TextureDrawer\\Ptx\\Mobile.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Ptx Parser for Android: PvZ2",
+        "PathToJScriptFile": "Scripts\\SourceCode\\TextureDrawer\\Ptx\\Mobile.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"PtxParser" : "ZCore.Modules.TextureDrawer.Parsers.PopCapTexture.Android.PtxParser"
+	}
+}

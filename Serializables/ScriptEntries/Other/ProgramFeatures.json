@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\Other\\ProgramFeatures.bin",
+    "ScriptMetadata": {
+        "DocumentName": "SexyTool: Features",
+        "PathToJScriptFile": "Scripts\\SourceCode\\Other\\ProgramFeatures.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"Features" : "RipeConsole.Program.Features"
+	}
+}

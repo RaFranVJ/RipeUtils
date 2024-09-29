@@ -1,0 +1,5 @@
+{
+    "GroupID": 1,
+    "GroupName": "GROUP_VARINT_CALCULATOR",
+    "PathToFuncsDir": "Serializables\\Functions\\Other\\VarIntCalculator\\"
+}

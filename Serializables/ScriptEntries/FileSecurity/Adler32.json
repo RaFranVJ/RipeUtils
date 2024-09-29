@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\FileSecurity\\Adler32.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Adler32 Digest",
+        "PathToJScriptFile": "Scripts\\SourceCode\\FileSecurity\\Adler32.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"Adler32" : "ZCore.Modules.FileSecurity.Adler32Checksum"
+	}
+}

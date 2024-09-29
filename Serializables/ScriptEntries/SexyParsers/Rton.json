@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\SexyParsers\\RtonParser.bin",
+    "ScriptMetadata": {
+        "DocumentName": "PopCap Reflection Object Notation: PvZ2",
+        "PathToJScriptFile": "Scripts\\SourceCode\\SexyParsers\\RtonParser.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"RtonParser" : "ZCore.Modules.SexyParsers.ReflectionObjectNotation.Parser.RtonParser"
+	}
+}

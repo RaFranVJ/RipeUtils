@@ -1,0 +1,5 @@
+{
+    "GroupID": 9,
+    "GroupName": "GROUP_SMF_COMPRESSOR",
+    "PathToFuncsDir": "Serializables\\Functions\\SexyCompressors\\Smf\\"
+}

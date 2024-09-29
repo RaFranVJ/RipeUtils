@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\Other\\StringDigest.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Generic String Digest",
+        "PathToJScriptFile": "Scripts\\SourceCode\\Other\\StringDigest.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+		"TypesToExpose" : {
+		"StringDigest" : "ZCore.Modules.Other.StringDigest"
+	}
+}

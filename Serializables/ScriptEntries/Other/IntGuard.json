@@ -1,0 +1,15 @@
+{
+    "CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\Other\\IntegersGuard.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Integers Guard for PvZ2CN",
+        "PathToJScriptFile": "Scripts\\SourceCode\\Other\\IntegersGuard.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+		"TypesToExpose" : {
+		"IntegersGuard", "ZCore.Modules.Other.IntegersGuard"
+	}
+}

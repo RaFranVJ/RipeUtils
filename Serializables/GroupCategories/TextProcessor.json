@@ -1,0 +1,7 @@
+{
+    "CategoryID": 5,
+    "CategoryName": "FRAMEWORK_TEXT_PROCESSOR",
+    "AllowInputFromFiles": true,
+    "AllowInputFromDirs": true,
+    "PathToGroupsDir": "Serializables\\Groups\\TextProcessor\\"
+}

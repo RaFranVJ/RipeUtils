@@ -1,0 +1,7 @@
+{
+    "CategoryID": 9,
+    "CategoryName": "FRAMEWORK_TEXTURE_DRAWER",
+    "AllowInputFromFiles": true,
+    "AllowInputFromDirs": true,
+    "PathToGroupsDir": "Serializables\\Groups\\TextureDrawer\\"
+}

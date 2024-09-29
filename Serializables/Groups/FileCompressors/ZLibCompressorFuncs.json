@@ -1,0 +1,5 @@
+{
+    "GroupID": 9,
+    "GroupName": "GROUP_ZLIB_COMPRESSOR",
+    "PathToFuncsDir": "Serializables\\Functions\\FileCompressors\\ZLib\\"
+}

@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\Other\\TimeCalculator.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Unix Time Calculator",
+        "PathToJScriptFile": "Scripts\\SourceCode\\Other\\TimeCalculator.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+		"TypesToExpose" : {
+		"TimeCalculator" : "ZCore.Modules.Other.TimeCalculator"
+	}
+}

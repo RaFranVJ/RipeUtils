@@ -1,0 +1,7 @@
+{
+    "CategoryID": 4,
+    "CategoryName": "FRAMEWORK_FILE_SECURITY",
+    "AllowInputFromFiles": true,
+    "AllowInputFromDirs": true,
+    "PathToGroupsDir": "Serializables\\Groups\\FileSecurity\\"
+}

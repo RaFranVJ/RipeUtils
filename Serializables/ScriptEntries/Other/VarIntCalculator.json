@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\Other\\VarIntCalculator.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Variant-Length Integer Calculator",
+        "PathToJScriptFile": "Scripts\\SourceCode\\Other\\VarIntCalculator.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+		"TypesToExpose" : {
+		"VarIntCalculator" : "ZCore.Modules.Other.VarIntCalculator"
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "CategoryID": 3,
+    "CategoryName": "FRAMEWORK_FILE_COMPRESSORS",
+    "AllowInputFromFiles": true,
+    "AllowInputFromDirs": true,
+    "PathToGroupsDir": "Serializables\\Groups\\FileCompressors\\"
+}

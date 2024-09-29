@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\SexyCryptors\\RijndaelCryptor.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Rijndael: Rijmen, Vincent & Joan Daemen",
+        "PathToJScriptFile": "Scripts\\SourceCode\\SexyCryptors\\RijndaelCryptor.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"RijndaelCryptor" : "ZCore.Modules.SexyCryptors.RijndaelCryptor"
+	}
+}

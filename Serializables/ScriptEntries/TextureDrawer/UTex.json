@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\TextureDrawer\\UTex.bin",
+    "ScriptMetadata": {
+        "DocumentName": "UTex Parser",
+        "PathToJScriptFile": "Scripts\\SourceCode\\TextureDrawer\\UTex.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"UTexParser" : "ZCore.Modules.TextureDrawer.Parsers.UTexture.UTexParser"
+	}
+}

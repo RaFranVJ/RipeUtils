@@ -1,0 +1,7 @@
+{
+    "CategoryID": 12,
+    "CategoryName": "FRAMEWORK_OTHER_FUNCTIONS",
+    "AllowInputFromFiles": false,
+    "AllowInputFromDirs": false,
+    "PathToGroupsDir": "Serializables\\Groups\\Other\\"
+}

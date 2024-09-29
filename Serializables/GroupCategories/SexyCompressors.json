@@ -1,0 +1,7 @@
+{
+    "CategoryID": 7,
+    "CategoryName": "FRAMEWORK_SEXY_COMPRESSORS",
+    "AllowInputFromFiles": true,
+    "AllowInputFromDirs": true,
+    "PathToGroupsDir": "Serializables\\Groups\\SexyCompressors\\"
+}

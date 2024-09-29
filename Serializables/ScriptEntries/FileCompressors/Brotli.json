@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\FileCompressors\\BrCompressor.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Brotli Compressor",
+        "PathToJScriptFile": "Scripts\\SourceCode\\FileCompressors\\BrCompressor.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"BrotliCompressor" : "ZCore.Modules.FileCompressors.BrotliCompressor"
+	}
+}

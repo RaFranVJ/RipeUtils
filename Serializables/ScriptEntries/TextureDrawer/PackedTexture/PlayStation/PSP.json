@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\TextureDrawer\\Ptx\\PlayStation\\Generic.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Ptx Parser for PSP",
+        "PathToJScriptFile": "Scripts\\SourceCode\\TextureDrawer\\Ptx\\PlayStation\\Generic.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"PtxParser" : "ZCore.Modules.TextureDrawer.Parsers.PackedTexture.PlayStation.PSP.PtxParser"
+	}
+}

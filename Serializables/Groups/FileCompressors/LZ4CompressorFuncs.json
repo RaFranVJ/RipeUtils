@@ -1,0 +1,5 @@
+{
+    "GroupID": 5,
+    "GroupName": "GROUP_LZ4_COMPRESSOR",
+    "PathToFuncsDir": "Serializables\\Functions\\FileCompressors\\LZ4\\"
+}

@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\FileManager\\DirTasks.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Directory Manager - Tasks",
+        "PathToJScriptFile": "Scripts\\SourceCode\\FileManager\\DirTasks.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"DirManager" : "ZCore.Modules.DirManager"
+	}
+}

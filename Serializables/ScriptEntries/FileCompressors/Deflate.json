@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\FileCompressors\\DflCompressor.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Deflate Compressor",
+        "PathToJScriptFile": "Scripts\\SourceCode\\FileCompressors\\DflCompressor.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"DeflateCompressor" : "ZCore.Modules.FileCompressors.DeflateCompressor"
+	}
+}

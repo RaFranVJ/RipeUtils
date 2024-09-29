@@ -1,0 +1,7 @@
+{
+    "CategoryID": 6,
+    "CategoryName": "FRAMEWORK_SEXY_PARSERS",
+    "AllowInputFromFiles": true,
+    "AllowInputFromDirs": true,
+    "PathToGroupsDir": "Serializables\\Groups\\SexyParsers\\"
+}

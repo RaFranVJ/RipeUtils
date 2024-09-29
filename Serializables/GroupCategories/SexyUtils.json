@@ -1,0 +1,7 @@
+{
+    "CategoryID": 10,
+    "CategoryName": "FRAMEWORK_SEXY_UTILS",
+    "AllowInputFromFiles": true,
+    "AllowInputFromDirs": true,
+    "PathToGroupsDir": "Serializables\\Groups\\SexyUtils\\"
+}

@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\SexyCryptors\\RSACryptor.bin",
+    "ScriptMetadata": {
+        "DocumentName": "RSA: Rivest, Shamir & Adleman",
+        "PathToJScriptFile": "Scripts\\SourceCode\\SexyCryptors\\RSACryptor.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"RSACryptor" : "ZCore.Modules.SexyCryptors.RSA.RSACryptor"
+	}
+}

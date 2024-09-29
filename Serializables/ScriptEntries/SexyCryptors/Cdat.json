@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\SexyCryptors\\CdatCryptor.bin",
+    "ScriptMetadata": {
+        "DocumentName": "PopCap Data Cryptor: PvZ Mobile",
+        "PathToJScriptFile": "Scripts\\SourceCode\\SexyCryptors\\CdatCryptor.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"CdatCryptor" : "ZCore.Modules.SexyCryptors.PopCapCipheredData.PopDataCryptor"
+	}
+}

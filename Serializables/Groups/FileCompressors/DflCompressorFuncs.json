@@ -1,0 +1,5 @@
+{
+    "GroupID": 3,
+    "GroupName": "GROUP_DEFLATE_COMPRESSOR",
+    "PathToFuncsDir": "Serializables\\Functions\\FileCompressors\\Deflate\\"
+}

@@ -1,0 +1,7 @@
+{
+    "CategoryID": 8,
+    "CategoryName": "FRAMEWORK_SEXY_CRYPTORS",
+    "AllowInputFromFiles": true,
+    "AllowInputFromDirs": true,
+    "PathToGroupsDir": "Serializables\\Groups\\SexyCryptors\\"
+}

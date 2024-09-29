@@ -1,0 +1,5 @@
+{
+    "GroupID": 1,
+    "GroupName": "GROUP_MANAGE_ARCHIVES",
+    "PathToFuncsDir": "Serializables\\Functions\\FileManager\\FileTasks\\"
+}

@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\TextureDrawer\\Txz.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Trainz Texture Parser",
+        "PathToJScriptFile": "Scripts\\SourceCode\\TextureDrawer\\Txz.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"TxzParser" : "ZCore.Modules.TextureDrawer.Parsers.TrainzTexture.TxzParser"
+	}
+}

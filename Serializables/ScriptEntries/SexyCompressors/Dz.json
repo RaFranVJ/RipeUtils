@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\SexyCompressors\\DzCompressor.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Dz Compressor from Marmalade",
+        "PathToJScriptFile": "Scripts\\SourceCode\\SexyCompressors\\DzCompressor.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"DzCompressor" : "ZCore.Modules.SexyCompressors.MarmaladeDZ.DzCompressor"
+	}
+}

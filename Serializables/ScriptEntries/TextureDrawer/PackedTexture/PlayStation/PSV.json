@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\TextureDrawer\\Ptx\\PlayStation\\PSV.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Ptx Parser for PSV",
+        "PathToJScriptFile": "Scripts\\SourceCode\\TextureDrawer\\Ptx\\PlayStation\\PSV.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"PtxParser" : "ZCore.Modules.TextureDrawer.Parsers.PackedTexture.PlayStation.PSV.PtxParser"
+	}
+}

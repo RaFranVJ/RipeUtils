@@ -1,0 +1,7 @@
+{
+    "CategoryID": 1,
+    "CategoryName": "FRAMEWORK_FILE_MANAGER",
+    "AllowInputFromFiles": true,
+    "AllowInputFromDirs": true,
+    "PathToGroupsDir": "Serializables\\Groups\\FileManager\\"
+}

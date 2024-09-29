@@ -1,0 +1,5 @@
+{
+    "GroupID": 1,
+    "GroupName": "GROUP_ARCV_COMPRESSOR",
+    "PathToFuncsDir": "Serializables\\Functions\\SexyCompressors\\ArcV\\"
+}

@@ -1,0 +1,5 @@
+{
+    "GroupID": 1,
+    "GroupName": "GROUP_BASE64_PARSER",
+    "PathToFuncsDir": "Serializables\\Functions\\FileParsers\\Base64\\"
+}

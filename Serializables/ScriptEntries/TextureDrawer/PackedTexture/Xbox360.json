@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\TextureDrawer\\Ptx\\Xbox360.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Ptx Parser for Xbox360",
+        "PathToJScriptFile": "Scripts\\SourceCode\\TextureDrawer\\Ptx\\Xbox360.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"PtxParser" : "ZCore.Modules.TextureDrawer.Parsers.PackedTexture.Xbox360.PtxParser"
+	}
+}

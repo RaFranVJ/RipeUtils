@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\SexyCompressors\\ArcvCompressor.bin",
+    "ScriptMetadata": {
+        "DocumentName": "ArcV Compressor for NDS",
+        "PathToJScriptFile": "Scripts\\SourceCode\\SexyCompressors\\ArcvCompressor.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"ArcvCompressor" : "ZCore.Modules.SexyCompressors.ArcVPackage.ArcvCompressor"
+	}
+}

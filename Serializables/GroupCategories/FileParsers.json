@@ -1,0 +1,7 @@
+{
+    "CategoryID": 2,
+    "CategoryName": "FRAMEWORK_FILE_PARSERS",
+    "AllowInputFromFiles": true,
+    "AllowInputFromDirs": true,
+    "PathToGroupsDir": "Serializables\\Groups\\FileParsers\\"
+}

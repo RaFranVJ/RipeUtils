@@ -1,0 +1,5 @@
+{
+    "GroupID": 6,
+    "GroupName": "GROUP_XOR_BYTES_CRYPTOR",
+    "PathToFuncsDir": "Serializables\\Functions\\Other\\XorCryptor\\"
+}

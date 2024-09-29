@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\FileCompressors\\ZlCompressor.bin",
+    "ScriptMetadata": {
+        "DocumentName": "ZLib Compressor",
+        "PathToJScriptFile": "Scripts\\SourceCode\\FileCompressors\\ZlCompressor.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"ZLibCompressor" : "ZCore.Modules.FileCompressors.ZLibCompressor"
+	}
+}

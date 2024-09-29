@@ -1,0 +1,5 @@
+{
+    "GroupID": 2,
+    "GroupName": "GROUP_TEXTURE_PARSER",
+    "PathToSubGroupsDir": "Serializables\\SubGroups\\TextureDrawer.Parser\\"
+}

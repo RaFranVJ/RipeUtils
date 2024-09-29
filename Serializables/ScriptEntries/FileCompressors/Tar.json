@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\FileCompressors\\TarCompressor.bin",
+    "ScriptMetadata": {
+        "DocumentName": "Tar Compressor",
+        "PathToJScriptFile": "Scripts\\SourceCode\\FileCompressors\\TarCompressor.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"TarCompressor" : "ZCore.Modules.FileCompressors.TarCompressor"
+	}
+}

@@ -1,0 +1,5 @@
+{
+    "GroupID": 4,
+    "GroupName": "GROUP_GZIP_COMPRESSOR",
+    "PathToFuncsDir": "Serializables\\Functions\\FileCompressors\\GZip\\"
+}

@@ -1,0 +1,20 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\TextProcessor\\LawnStrings.bin",
+    "ScriptMetadata": {
+        "DocumentName": "LawnStrings for PvZ",
+        "PathToJScriptFile": "Scripts\\SourceCode\\TextProcessor\\LawnStrings.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"LawnStrsConverter" : "ZCore.Modules.TextProcessor.LawnStrings.Methods.LawnStringsConverter",
+		"LawnStrsSorter" : "ZCore.Modules.TextProcessor.LawnStrings.Methods.LawnStringsSorter",
+		"LawnStrsNormalizer" : "ZCore.Modules.TextProcessor.LawnStrings.Methods.LawnStringsNormalizer",
+		"LawnStrsSplit" : "ZCore.Modules.TextProcessor.LawnStrings.Methods.LawnStringsSplit",
+		"LawnStrsComparer" : "ZCore.Modules.TextProcessor.LawnStrings.Methods.LawnStringsComparer",
+		"LawnStrsUpdater" : "ZCore.Modules.TextProcessor.LawnStrings.Methods.LawnStringsUpdater"
+	}
+}

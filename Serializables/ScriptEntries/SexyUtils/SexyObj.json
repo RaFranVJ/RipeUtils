@@ -1,0 +1,19 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\SexyUtils\\SexyObjUtil.bin",
+    "ScriptMetadata": {
+        "DocumentName": "SexyUtil: Analizer for Obj Tables",
+        "PathToJScriptFile": "Scripts\\SourceCode\\SexyUtils\\SexyObjUtil.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"SexyObjSorter" : "ZCore.Modules.SexyUtils.SexyObjUtil.Methods.SexyObjSorter",
+		"SexyObjNormalizer" : "ZCore.Modules.SexyUtils.SexyObjUtil.Methods.SexyObjNormalizer",
+		"SexyObjSplit" : "ZCore.Modules.SexyUtils.SexyObjUtil.Methods.SexyObjSplit",
+		"SexyObjComparer" : "ZCore.Modules.SexyUtils.SexyObjUtil.Methods.SexyObjComparer",
+		"SexyObjUpdater" : "ZCore.Modules.SexyUtils.SexyObjUtil.Methods.SexyObjUpdater"
+	}
+}

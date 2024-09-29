@@ -1,0 +1,15 @@
+{
+	"CacheKind": 2,
+    "PathToScriptCache": "Scripts\\CacheBytes\\SexyCryptors\\RtonCryptor.bin",
+    "ScriptMetadata": {
+        "DocumentName": "PopCap RTON Cryptor: PvZ2CN",
+        "PathToJScriptFile": "Scripts\\SourceCode\\SexyCryptors\\RtonCryptor.js",
+        "Category": {
+            "MaxCacheSize": 1024
+        },
+        "Flags": 0
+    },
+	"TypesToExpose" : {
+		"RtonCryptor" : "ZCore.Modules.SexyCryptor.CRton.RtonCryptor"
+	}
+}

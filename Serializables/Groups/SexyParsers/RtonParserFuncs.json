@@ -1,0 +1,5 @@
+{
+    "GroupID": 1,
+    "GroupName": "GROUP_RTON_PARSER",
+    "PathToFuncsDir": "Serializables\\Functions\\SexyParsers\\Rton\\"
+}
