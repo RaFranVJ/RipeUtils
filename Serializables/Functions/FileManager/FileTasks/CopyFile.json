@@ -1,0 +1,21 @@
+{
+	"FuncID" : 5,
+	"FuncName" : "FUNCTION_COPY_FILE",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".*" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\FileManager\\FileTasks.json",
+	"ScriptMethodName" : "copy",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "FileManagerParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "FileManagerParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "FileManagerParams", "FileOptions", "ReplaceExistingFiles" ]
+	],
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_COPY_FILE",
+	 "ExecutionSuccessful" : "RESULT_COPY_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_COPY_FILE_FAILED"
+	}
+}

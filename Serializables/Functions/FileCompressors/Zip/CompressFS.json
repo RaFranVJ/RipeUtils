@@ -1,0 +1,27 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_COMPRESS_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".*" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\FileCompressors\\Zip.json",
+	"ScriptMethodName" : "compress",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "FileCompressorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "FileCompressorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "FileCompressorsParams", "ZipConfig", "ZipMode" ],
+		[ "FileCompressorsParams", "ZipConfig", "EncodingForEntryNames" ],
+		[ "FileCompressorsParams", "ZipConfig", "OptionalFileComment" ],
+		[ "FileCompressorsParams", "ZipConfig", "EntriesInfo" ],
+		[ "FileManagerParams", "FolderOptions", "SearchOptionsForFiles" ]
+	],
+	"UseOutputPathOnQuickMode" : true,
+	"DisableBatchMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_COMPRESS_FILE",
+	 "ExecutionSuccessful" : "RESULT_COMPRESS_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_COMPRESS_FILE_FAILED"
+	}
+}

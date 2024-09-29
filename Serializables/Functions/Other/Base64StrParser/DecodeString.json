@@ -1,0 +1,11 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_DECODE_STRING",
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\Other\\Base64StrParser.json",
+	"ScriptMethodName" : "decode",
+	"ArgsType" : "Generic",
+	"IgnoreInputPathOnMethodCalls" : true,
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"RunScriptForResultOnly" : true,
+	"GenericArgs" : [ "QUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGpqa2xtbm9wcXJzdHV2d3h5el0=", true ]
+}

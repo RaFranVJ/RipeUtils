@@ -1,0 +1,11 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_CALCULATE_DATE_TIME",
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\Other\\TimeCalculator.json",
+	"ScriptMethodName" : "calculateDT",
+	"ArgsType" : "Generic",
+	"IgnoreInputPathOnMethodCalls" : true,
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"RunScriptForResultOnly" : true,
+	"GenericArgs" :  [ 0 ]
+}

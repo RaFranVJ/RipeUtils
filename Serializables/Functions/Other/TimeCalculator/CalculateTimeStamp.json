@@ -1,0 +1,11 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_CALCULATE_TIME_STAMP",
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\Other\\TimeCalculator.json",
+	"ScriptMethodName" : "calculateTS",
+	"ArgsType" : "Generic",
+	"IgnoreInputPathOnMethodCalls" : true,
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"RunScriptForResultOnly" : true,
+	"GenericArgs" :  [ "2004-05-4T10:00:00" ]
+}

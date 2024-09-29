@@ -1,0 +1,22 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_DECOMPRESS_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".bzip2", ".bz2" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\FileCompressors\\BZip2.json",
+	"ScriptMethodName" : "decompress",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "FileCompressorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "FileCompressorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "FileCompressorsParams", "BZip2Config", "BufferSizeForIOTasks" ]
+		
+	],
+	"UseOutputPathOnQuickMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_DECOMPRESS_FILE",
+	 "ExecutionSuccessful" : "RESULT_DECOMPRESS_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_DECOMPRESS_FILE_FAILED"
+	}
+}

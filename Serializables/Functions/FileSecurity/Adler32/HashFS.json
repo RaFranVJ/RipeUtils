@@ -1,0 +1,21 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_HASH_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".*" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\FileSecurity\\Adler32.json",
+	"ScriptMethodName" : "hash",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "FileSecurityParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "FileSecurityParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "FileSecurityParams", "Adler32Config" ]
+	],
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_HASH_FILE",
+	 "ExecutionSuccessful" : "RESULT_HASH_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_HASH_FILE_FAILED"
+	}
+}

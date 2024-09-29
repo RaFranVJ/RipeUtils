@@ -1,0 +1,20 @@
+{
+	"#HmacProviders" : [
+	  "HMACMD5",
+	  "HMACRIPEMD160",
+	  "HMACSHA1",
+	  "HMACSHA256",
+	  "HMACSHA384",
+	  "HMACSHA512",
+	  "MACTripleDES"
+     ],
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_HASH_STRING_WITH_HMAC",
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\Other\\StrDigest.json",
+	"ScriptMethodName" : "digest",
+	"ArgsType" : "Generic",
+	"IgnoreInputPathOnMethodCalls" : true,
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"RunScriptForResultOnly" : true,
+	"GenericArgs" : [ "<Insert the Data to Hash here>", true, "HMACMD5", "Upper", "MyAuthCode123" ]
+}

@@ -1,0 +1,18 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_CREATE_DIRECT_ACCESS",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".*" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\FileManager\\FileTasks.json",
+	"ScriptMethodName" : "link",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "FileManagerParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "FileManagerParams", "OutputPath" ],
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_CREATE_DIRECT_ACCESS",
+	 "ExecutionSuccessful" : "RESULT_CREATE_DIRECT_ACCESS_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_CREATE_DIRECT_ACCESS_FAILED"
+	}
+}

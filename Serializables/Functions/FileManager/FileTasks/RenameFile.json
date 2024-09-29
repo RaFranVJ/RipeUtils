@@ -1,0 +1,21 @@
+{
+	"FuncID" : 4,
+	"FuncName" : "FUNCTION_RENAME_FILE",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".*" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\FileManager\\FileTasks.json",
+	"ScriptMethodName" : "rename",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "FileManagerParams", "InputPath" ],
+	"SpecificArgs" : [
+		[ "FileManagerParams", "FileOptions", "NewFilesConfig", "NewFileName" ]
+	],
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_RENAME_FILE",
+	 "ExecutionSuccessful" : "RESULT_RENAME_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_RENAME_FILE_FAILED"
+	}
+}

@@ -1,0 +1,133 @@
+{
+    "UserLanguage": "es-ES",
+    "WindowInfo": {
+        "Width": 120,
+        "Left": 0,
+        "Top": 0,
+        "Height": 30
+    },
+    "BufferInfo": {
+        "Width": 120,
+        "Height": 9001
+    },
+    "ColorInfo": {
+        "Background": "Black",
+        "Foreground": "Green"
+    },
+    "CursorInfo": {
+        "Left": 0,
+        "Size": 25,
+        "Top": 0,
+        "IsVisible": true
+    },
+    "AlertInfo": {
+        "DisplayStatusMsgs": true,
+        "NotifyTaskCompletion": true,
+        "NotifyWarnings": true,
+        "NotifyErrors": true
+    },
+    "LogInfo": {
+        "ReaderEncoding": "System.Text.OSEncoding",
+        "WriterEncoding": "System.Text.OSEncoding",
+        "LogMode": 0,
+        "PathForLogs": ""
+    },
+    "TaskScheduleConfig": {
+        "AllowMultiTasking": false,
+        "MaxTasksCount": 5
+    },
+    "JSEngineConfig": {
+        "EngineName": "My JavaScript Engine",
+        "RuntimeConstraints": {
+            "MaxNewSpaceSize": 0,
+            "MaxOldSpaceSize": 0,
+            "MaxExecutableSize": 0,
+            "MaxYoungSpaceSize": 0,
+            "HeapExpansionMultiplier": 0,
+            "MaxArrayBufferAllocation": 18446744073709551615
+        },
+        "EngineFlags": 0,
+        "EngineProperties": {
+            "AllowReflection": false,
+            "CodeFormatting": true,
+            "ConfigForDocumentsLoader": {
+                "Loader": {
+                    "MaxCacheSize": 1024
+                },
+                "AccessFlags": 3
+            },
+            "DefaultScriptAccess": "Full",
+            "DisableDynamicBinding": false,
+            "DisableExtensionMethods": false,
+            "EnableAutoHostVariables": false,
+            "EnforceAnonymousTypeAccess": false,
+            "EnumerateExtensionMethods": false,
+            "EnumerateInstanceMethods": false,
+            "ExposeStaticMembers": false,
+            "InterruptRuntimePropagation": false,
+            "MaxRuntimeHeapSize": "0",
+            "MaxRuntimeStackUsage": "0",
+            "RuntimeHeapBehavior": "Interrupt",
+            "StrictTyping": true,
+            "StrictTypingForCollections": true,
+            "TimeBetweenCpuSamples": 1000,
+            "TimeBetweenHeapSamples": "PT0S",
+            "UseFloatNarrowing": false,
+            "UseReflectionBindFallback": false,
+            "WrapNullResults": false
+        },
+        "ShowExecutionDetails": true,
+        "CompilationMode": 2
+    },
+    "MappedKeys": {
+        "TerminationKeys": {
+            "ExitKey": "E",
+            "ReturnKey": "R",
+            "AllowControlKeys": false
+        },
+        "GenericMenuKeys": {
+            "NavigationKey_Up": "UpArrow",
+            "NavigationKey_Down": "DownArrow",
+            "InfoKey": "I",
+            "SelectionKey": "Enter",
+            "OmissionKey": "Escape",
+            "AllowControlKeys": false
+        },
+        "ListViewerKeys": {
+            "AddElement": "A",
+            "RemoveElement": "R",
+            "NavigationKey_Up": "UpArrow",
+            "NavigationKey_Down": "DownArrow",
+            "InfoKey": "I",
+            "SelectionKey": "Enter",
+            "OmissionKey": "Escape",
+            "AllowControlKeys": false
+        },
+        "ListEditorKeys": {
+            "CloneElement": "C",
+            "EditElement": "E",
+            "AddElement": "A",
+            "RemoveElement": "R",
+            "NavigationKey_Up": "UpArrow",
+            "NavigationKey_Down": "DownArrow",
+            "InfoKey": "I",
+            "SelectionKey": "Enter",
+            "OmissionKey": "Escape",
+            "AllowControlKeys": false
+        },
+        "TaskSelectorKeys": {
+            "StartTask": "S",
+            "CancelTask": "F",
+            "ExecuteAll": "W",
+            "CancelAll": "K",
+            "AddElement": "A",
+            "RemoveElement": "R",
+            "NavigationKey_Up": "UpArrow",
+            "NavigationKey_Down": "DownArrow",
+            "InfoKey": "I",
+            "SelectionKey": "Enter",
+            "OmissionKey": "Escape",
+            "AllowControlKeys": false
+        }
+    }
+}
