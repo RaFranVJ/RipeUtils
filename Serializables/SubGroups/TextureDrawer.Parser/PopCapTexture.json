@@ -1,0 +1,5 @@
+{
+    "GroupID": 5,
+    "GroupName": "GROUP_POPCAP_TEXTURE_PARSER",
+    "PathToSubGroupsDir": "Serializables\\SubGroups\\TextureDrawer.Parser.Ptx\\Mobile\\"
+}

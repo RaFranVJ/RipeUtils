@@ -1,0 +1,5 @@
+{
+    "GroupID": 3,
+    "GroupName": "GROUP_PTX_PARSER_FOR_ANDROID_IOS",
+    "PathToFuncsDir": "Serializables\\Functions\\TextureDrawer\\Parser\\PopCapTexture\\iOS\\"
+}

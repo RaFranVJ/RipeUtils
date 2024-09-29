@@ -1,0 +1,5 @@
+{
+    "GroupID": 2,
+    "GroupName": "GROUP_UTEX_PARSER",
+    "PathToFuncsDir": "Serializables\\Functions\\TextureDrawer\\Parser\\UTexture\\"
+}

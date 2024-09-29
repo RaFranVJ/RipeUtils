@@ -1,0 +1,5 @@
+{
+    "GroupID": 1,
+    "GroupName": "GROUP_PTX_PARSER_FOR_PSP",
+    "PathToFuncsDir": "Serializables\\Functions\\TextureDrawer\\Parser\\PackedTexture\\PlayStation\\PSP\\"
+}

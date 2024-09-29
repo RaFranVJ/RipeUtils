@@ -1,0 +1,5 @@
+{
+    "GroupID": 2,
+    "GroupName": "GROUP_PTX_PARSER_FOR_XBOX360",
+    "PathToFuncsDir": "Serializables\\Functions\\TextureDrawer\\Parser\\PackedTexture\\Xbox360\\"
+}
