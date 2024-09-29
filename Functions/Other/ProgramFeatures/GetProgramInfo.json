@@ -1,0 +1,10 @@
+{
+	"FuncID" : 3,
+	"FuncName" : "FUNCTION_GET_PROGRAM_INFO",
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\Other\\ProgramFeatures.json",
+	"ScriptMethodName" : "getProgramInfo",
+	"ArgsType" : "None",
+	"IgnoreInputPathOnMethodCalls" : true,
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"RunScriptForResultOnly" : true
+}

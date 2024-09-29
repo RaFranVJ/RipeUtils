@@ -1,0 +1,23 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_DECOMPRESS_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".zip" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\FileCompressors\\Zip.json",
+	"ScriptMethodName" : "decompress",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "FileCompressorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "FileCompressorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "FileCompressorsParams", "ZipConfig", "ZipMode" ],
+		[ "FileCompressorsParams", "ZipConfig", "EncodingForEntryNames" ],
+		[ "FileCompressorsParams", "ZipConfig", "EntriesInfo", "BufferSizeForIOTasks" ]
+	],
+	"UseOutputPathOnQuickMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_DECOMPRESS_FILE",
+	 "ExecutionSuccessful" : "RESULT_DECOMPRESS_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_DECOMPRESS_FILE_FAILED"
+	}
+}

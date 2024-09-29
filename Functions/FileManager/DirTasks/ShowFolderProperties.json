@@ -1,0 +1,17 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_DISPLAY_FOLDER_PROPERTIES",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".*" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\FileManager\\DirTasks.json",
+	"ScriptMethodName" : "displayProps",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "FileManagerParams", "InputPath" ],
+	"SpecificArgsToExpose" : {
+		"filePropsCfg" : [ "FileManagerParams", "FolderOptions", "DirPropsConfig" ]
+	},
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"ForceSingleMode" : true
+}

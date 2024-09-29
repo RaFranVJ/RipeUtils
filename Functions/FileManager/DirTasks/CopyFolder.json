@@ -1,0 +1,22 @@
+{
+	"FuncID" : 5,
+	"FuncName" : "FUNCTION_COPY_FOLDER",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".*" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\FileManager\\DirTasks.json",
+	"ScriptMethodName" : "copy",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "FileManagerParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "FileManagerParams", "OutputPath" ],
+	"SpecificArgsToExpose" : {
+		"filter" : [ "FileManagerParams", "FolderOptions", "FilterCriteriaForFiles" ]
+	},
+	"ForceSingleMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_COPY_FOLDER",
+	 "ExecutionSuccessful" : "RESULT_COPY_FOLDER_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_COPY_FOLDER_FAILED"
+	}
+}

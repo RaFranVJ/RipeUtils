@@ -1,0 +1,10 @@
+{
+	"FuncID" : 5,
+	"FuncName" : "FUNCTION_EDIT_PARAMS_GROUP",
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\Other\\ProgramFeatures.json",
+	"ScriptMethodName" : "editParamsGp",
+	"ArgsType" : "None",
+	"IgnoreInputPathOnMethodCalls" : true,
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"RunScriptForResultOnly" : true
+}

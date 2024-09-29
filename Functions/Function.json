@@ -1,0 +1,11 @@
+{
+    "FuncID": 0,
+    "FuncName": "My Function Template",
+    "PathToScriptEntry": "C:\\Users\\Francisco Villanueva\\source\\repos\\RipeConsole\\Compiled\\net8.0\\Serializables\\ScriptEntries\\JSCriptEntry.json",
+    "ArgsType": "None",
+    "ExposeArgsFirst": false,
+    "IgnoreInputPathOnMethodCalls": false,
+    "IgnoreOutputPathOnMethodCalls": false,
+    "DisableBatchMode": false,
+    "RunScriptForResultOnly": false
+}

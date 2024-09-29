@@ -1,0 +1,21 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_DECOMPRESS_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".deflate", ".dfl" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\FileCompressors\\Deflate.json",
+	"ScriptMethodName" : "decompress",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "FileCompressorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "FileCompressorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "FileCompressorsParams", "DeflateConfig", "BufferSizeForIOTasks" ]
+	],
+	"UseOutputPathOnQuickMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_DECOMPRESS_FILE",
+	 "ExecutionSuccessful" : "RESULT_DECOMPRESS_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_DECOMPRESS_FILE_FAILED"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_COMPRESS_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".*" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\FileCompressors\\ZLib.json",
+	"ScriptMethodName" : "compress",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "FileCompressorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "FileCompressorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "FileCompressorsParams", "ZLibConfig", "CompressionLvl" ],
+		[ "FileCompressorsParams", "ZLibConfig", "BufferSizeForIOTasks" ]
+		
+	],
+	"UseOutputPathOnQuickMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_COMPRESS_FILE",
+	 "ExecutionSuccessful" : "RESULT_COMPRESS_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_COMPRESS_FILE_FAILED"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_ENCODE_STRING",
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\Other\\Base64StrParser.json",
+	"ScriptMethodName" : "encode",
+	"ArgsType" : "Generic",
+	"IgnoreInputPathOnMethodCalls" : true,
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"RunScriptForResultOnly" : true,
+	"GenericArgs" : [ "<Insert the Data to Encode here>", false ]
+}

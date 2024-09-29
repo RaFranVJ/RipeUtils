@@ -1,0 +1,19 @@
+{
+	"FuncID" : 6,
+	"FuncName" : "FUNCTION_MOVE_FOLDER",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".*" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\FileManager\\DirTasks.json",
+	"ScriptMethodName" : "move",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "FileManagerParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "FileManagerParams", "OutputPath" ],
+	"ForceSingleMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_MOVE_FOLDER",
+	 "ExecutionSuccessful" : "RESULT_MOVE_FOLDER_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_MOVE_FOLDER_FAILED"
+	}
+}

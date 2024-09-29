@@ -1,0 +1,21 @@
+{
+	"FuncID" : 6,
+	"FuncName" : "FUNCTION_MOVE_FILE",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".*" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\FileManager\\FileTasks.json",
+	"ScriptMethodName" : "move",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "FileManagerParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "FileManagerParams", "OutputPath" ],
+	"SpecificArgs" : {
+		"replaceFiles" : [ "FileManagerParams", "FileOptions", "ReplaceExistingFiles" ]
+	},
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_MOVE_FILE",
+	 "ExecutionSuccessful" : "RESULT_MOVE_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_MOVE_FILE_FAILED"
+	}
+}

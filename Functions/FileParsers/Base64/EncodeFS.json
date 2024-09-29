@@ -1,0 +1,23 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_ENCODE_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".*" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\FileParsers\\Base64.json",
+	"ScriptMethodName" : "encode",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "FileParsersParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "FileParsersParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "FileParsersParams", "Base64Config", "IsWebSafe" ],
+		[ "FileParsersParams", "Base64Config", "BufferSizeForIOTasks" ]	
+	],
+	"UseOutputPathOnQuickMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_ENCODE_FILE",
+	 "ExecutionSuccessful" : "RESULT_ENCODE_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_ENCODE_FILE_FAILED"
+	}
+}

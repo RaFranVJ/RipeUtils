@@ -1,0 +1,27 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_CIPHER_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".*" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\FileSecurity\\XOR.json",
+	"ScriptMethodName" : "cipher",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "FileSecurityParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "FileSecurityParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "FileSecurityParams", "FileCryptorsConfig", "XorCryptoInfo", "CipherKey" ],
+		[ "FileSecurityParams", "FileCryptorsConfig", "XorCryptoInfo", "BufferSizeForIOTasks" ],
+		[ "FileSecurityParams", "FileCryptorsConfig", "XorCryptoInfo", "DeriveKeys" ],
+		[ "FileSecurityParams", "FileCryptorsConfig", "XorCryptoInfo", "SaltValue" ],
+		[ "FileSecurityParams", "FileCryptorsConfig", "XorCryptoInfo", "HashType" ],
+		[ "FileSecurityParams", "FileCryptorsConfig", "XorCryptoInfo", "IterationsCount" ]
+	],
+	"UseOutputPathOnQuickMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_CIPHER_FILE",
+	 "ExecutionSuccessful" : "RESULT_CIPHER_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_CIPHER_FILE_FAILED"
+	}
+}
