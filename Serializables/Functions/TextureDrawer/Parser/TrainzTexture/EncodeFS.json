@@ -1,0 +1,24 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_ENCODE_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".bmp", ".img", ".jpg", ".png" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\TextureDrawer\\Trainz.json",
+	"ScriptMethodName" : "encode",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "TextureDrawerParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "TextureDrawerParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "TxzConfig", "CompressionLvl" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "TxzConfig", "BufferSizeForIOTasks" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "TxzConfig", "ImageFormatForEncoding" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "TxzConfig", "Endianness" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "TxzConfig", "MetadataImportConfig" ]
+	],
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_ENCODE_FILE",
+		"ExecutionSuccessful" : "RESULT_ENCODE_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_ENCODE_FILE_FAILED"
+	}
+}

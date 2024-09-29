@@ -1,0 +1,22 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_DECRYPT_AND_DECODE_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".bak", ".bin", ".dat", ".rton", ".section", ".txt" ],
+		"FileNamesToSearch" : [ "drapper_", "local_profiles", "loot", "_saveheader_rton" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyUtils\\Rton.json",
+	"ScriptMethodName" : "decryptAndDecode",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyParsersParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyParsersParams", "OutputPath" ],
+	"SpecificArgs" : [
+	    [ "SexyCryptorsParams", "RtonCryptoInfo" ],
+		[ "SexyParsersParams", "RtonConfig" ]
+	],
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_DECRYPT_AND_DECODE_FILE",
+		"ExecutionSuccessful" : "RESULT_DECRYPT_AND_DECODE_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_DECRYPT_AND_DECODE_FILE_FAILED"
+	}
+}

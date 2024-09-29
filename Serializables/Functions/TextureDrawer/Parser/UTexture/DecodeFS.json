@@ -1,0 +1,21 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_DECODE_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".tex" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\TextureDrawer\\UTex.json",
+	"ScriptMethodName" : "decode",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "TextureDrawerParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "TextureDrawerParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "UTexConfig", "Endianness" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "UTexConfig", "MetadataExportConfig" ]
+	],
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_DECODE_FILE",
+		"ExecutionSuccessful" : "RESULT_DECODE_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_DECODE_FILE_FAILED"
+	}
+}

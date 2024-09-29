@@ -1,0 +1,24 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_DECOMPRESS_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".gsr", ".pgsr", ".rsg", ".rsgp" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyCompressors\\Rsg.json",
+	"ScriptMethodName" : "decompress",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyCompressorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyCompressorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "SexyCompressorsParams", "RsgConfig", "BufferSizeForIOTasks" ],
+		[ "SexyCompressorsParams", "RsgConfig", "ExtractParams" ],
+		[ "SexyCompressorsParams", "RsgConfig", "StrCaseForFileNames" ],
+		[ "SexyCompressorsParams", "RsgConfig", "Endianness" ],
+		[ "SexyCompressorsParams", "RsgConfig", "AdaptCompatibilityBetweenVersions" ]
+	],
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_DECOMPRESS_FILE",
+	 "ExecutionSuccessful" : "RESULT_DECOMPRESS_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_DECOMPRESS_FILE_FAILED"
+	}
+}

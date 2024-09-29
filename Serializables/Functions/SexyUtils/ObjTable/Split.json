@@ -1,0 +1,20 @@
+{
+	"FuncID" : 3,
+	"FuncName" : "FUNCTION_SPLIT_TABLE",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".json" ],
+	    "FileExtensionsToExclude" : [ ".split_obj" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyUtils\\SexyObj.json",
+	"ScriptMethodName" : "split",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyUtilsParams", "InputPath" ],
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"SpecificArgs" : [],
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_SPLIT_FILE",
+		"ExecutionSuccessful" : "RESULT_SPLIT_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_SPLIT_FILE_FAILED"
+	}
+}

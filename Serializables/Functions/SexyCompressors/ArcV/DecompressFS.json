@@ -1,0 +1,26 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_DECOMPRESS_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".arc", ".arcv" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyCompressors\\Arcv.json",
+	"ScriptMethodName" : "decompress",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyCompressorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyCompressorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "SexyCompressorsParams", "ArcvConfig", "BufferSizeForIOTasks" ],
+		[ "SexyCompressorsParams", "ArcvConfig", "Endianness" ],
+        [ "SexyCompressorsParams", "ArcvConfig", "UseBinNamesOnDecompression" ],
+		[ "SexyCompressorsParams", "ArcvConfig", "WorkspaceName" ],
+		[ "SexyCompressorsParams", "ArcvConfig", "StyleInfo" ],
+		[ "SexyCompressorsParams", "ArcvConfig", "MetadataExportConfig" ]	
+	],
+	"UseOutputPathOnQuickMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_DECOMPRESS_FILE",
+	 "ExecutionSuccessful" : "RESULT_DECOMPRESS_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_DECOMPRESS_FILE_FAILED"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_COMPRESS_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".res_bundle" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyCompressors\\Rsb.json",
+	"ScriptMethodName" : "compress",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyCompressorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyCompressorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "SexyCompressorsParams", "RsbConfig", "BufferSizeForIOTasks" ],
+		[ "SexyCompressorsParams", "RsbConfig", "Endianness" ],
+		[ "SexyCompressorsParams", "RsbConfig", "AdaptCompatibilityBetweenVersions" ],
+		[ "SexyCompressorsParams", "RsbConfig", "StrCaseForResNames" ]
+	],
+	"ForceSingleMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_COMPRESS_FILE",
+	 "ExecutionSuccessful" : "RESULT_COMPRESS_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_COMPRESS_FILE_FAILED"
+	}
+}

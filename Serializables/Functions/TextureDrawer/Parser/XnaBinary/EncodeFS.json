@@ -1,0 +1,25 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_ENCODE_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".bmp", ".img", ".jpg", ".png" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\TextureDrawer\\Xnb.json",
+	"ScriptMethodName" : "encode",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "TextureDrawerParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "TextureDrawerParams", "OutputPath" ],
+	"SpecificArgs" : [
+	    [ "TextureDrawerParams", "ParamsForTextureParsers", "XnbConfig", "TargetPlatform" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "XnbConfig", "ImageFormatForEncoding" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "XnbConfig", "Endianness" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "XnbConfig", "XnbVersion" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "XnbConfig", "DdsVersion" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "XnbConfig", "MetadataImportConfig" ]
+	],
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_ENCODE_FILE",
+		"ExecutionSuccessful" : "RESULT_ENCODE_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_ENCODE_FILE_FAILED"
+	}
+}

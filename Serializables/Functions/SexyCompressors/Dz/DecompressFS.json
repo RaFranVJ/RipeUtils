@@ -1,0 +1,26 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_DECOMPRESS_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".dz", ".dtrz" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyCompressors\\Dz.json",
+	"ScriptMethodName" : "decompress",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyCompressorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyCompressorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+	    [ "SexyCompressorsParams", "DzConfig", "TextEncoding" ],
+		[ "SexyCompressorsParams", "DzConfig", "Endianness" ],
+		[ "SexyCompressorsParams", "DzConfig", "CompressorVersion", "AdaptCompatibilityBetweenVersions" ],
+		[ "SexyCompressorsParams", "DzConfig", "MaxChunkIndex" ],
+		[ "SexyCompressorsParams", "DzConfig", "EntryParams" ],
+		[ "SexyCompressorsParams", "DzConfig", "MetadataExportConfig" ]	
+	],
+	"UseOutputPathOnQuickMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_DECOMPRESS_FILE",
+	 "ExecutionSuccessful" : "RESULT_DECOMPRESS_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_DECOMPRESS_FILE_FAILED"
+	}
+}

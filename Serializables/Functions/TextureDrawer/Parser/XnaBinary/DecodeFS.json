@@ -1,0 +1,24 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_DECODE_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".xnb" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\TextureDrawer\\Xnb.json",
+	"ScriptMethodName" : "decode",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "TextureDrawerParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "TextureDrawerParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "XnbConfig", "Endianness" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "XnbConfig", "XnbVersion", "AdaptCompatibilityBetweenVersions" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "XnbConfig", "DdsVersion", "AdaptCompatibilityBetweenVersions" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "XnbConfig", "IntegrityConfig" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "XnbConfig", "MetadataExportConfig" ]
+	],
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_DECODE_FILE",
+		"ExecutionSuccessful" : "RESULT_DECODE_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_DECODE_FILE_FAILED"
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_SORT_LAWNSTRINGS",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".txt", ".json", ".rton" ],
+		"FileNamesToSearch" : [
+			"LawnStrings",
+			"LawnStrings-de-de",
+			"LawnStrings-en-us",
+			"LawnStrings-es-es",
+			"LawnStrings-fr-fr",
+			"LawnStrings-it-it",
+			"LawnStrings-pt-br"
+		]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\TextProcessor\\LawnStrings.json",
+	"ScriptMethodName" : "sort",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "TextProcessorParams", "InputPath" ],
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"SpecificArgs" : [
+		[ "TextProcessorParams", "LawnStringsConfig", "ConverterParams" ],
+		[ "TextProcessorParams", "LawnStringsConfig", "SorterParams" ]
+	],
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_SORT_FILE",
+		"ExecutionSuccessful" : "RESULT_SORT_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_SORT_FILE_FAILED"
+	}
+}

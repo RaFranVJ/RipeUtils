@@ -1,0 +1,22 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_DECODE_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".ptx" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\TextureDrawer\\PackedTexture\\PlayStation\\PS3.json",
+	"ScriptMethodName" : "decode",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "TextureDrawerParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "TextureDrawerParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "PtxConfig", "ParamsForPS3", "Endianness" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "PtxConfig", "ParamsForPS3", "CompareTextureSizeOnDecoding" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "PtxConfig", "ParamsForPS3", "MetadataExportConfig" ]
+	],
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_DECODE_FILE",
+		"ExecutionSuccessful" : "RESULT_DECODE_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_DECODE_FILE_FAILED"
+	}
+}

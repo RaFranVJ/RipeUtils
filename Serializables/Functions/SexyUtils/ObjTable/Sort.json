@@ -1,0 +1,21 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_SORT_TABLE",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".json" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyUtils\\SexyObj.json",
+	"ScriptMethodName" : "sort",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyUtilsParams", "InputPath" ],
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"SpecificArgs" : [
+	    [ "SexyUtilsParams", "ConfigForObjTables", "SorterParams" ]
+	],
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_SORT_FILE",
+		"ExecutionSuccessful" : "RESULT_SORT_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_SORT_FILE_FAILED"
+	}
+}

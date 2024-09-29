@@ -1,0 +1,29 @@
+{
+	"FuncID" : 3,
+	"FuncName" : "FUNCTION_NORMALIZE_LAWNSTRINGS",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".txt", ".json", ".rton" ],
+		"FileNamesToSearch" : [
+			"LawnStrings",
+			"LawnStrings-de-de",
+			"LawnStrings-en-us",
+			"LawnStrings-es-es",
+			"LawnStrings-fr-fr",
+			"LawnStrings-it-it",
+			"LawnStrings-pt-br"
+		]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\TextProcessor\\LawnStrings.json",
+	"ScriptMethodName" : "normalize",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "TextProcessorParams", "InputPath" ],
+    "SpecificPathForInput" : [ "TextProcessorParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "TextProcessorParams", "LawnStringsConfig", "ConverterParams" ]
+	],
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_NORMALIZE_FILE",
+		"ExecutionSuccessful" : "RESULT_NORMALIZE_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_NORMALIZE_FILE_FAILED"
+	}
+}

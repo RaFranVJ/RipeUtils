@@ -1,0 +1,30 @@
+{
+	"FuncID" : 4,
+	"FuncName" : "FUNCTION_SPLIT_LAWNSTRINGS",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".txt", ".json", ".rton" ],
+		"FileExtensionsToExclude" : [ ".split" ],
+		"FileNamesToSearch" : [
+			"LawnStrings",
+			"LawnStrings-de-de",
+			"LawnStrings-en-us",
+			"LawnStrings-es-es",
+			"LawnStrings-fr-fr",
+			"LawnStrings-it-it",
+			"LawnStrings-pt-br"
+		]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\TextProcessor\\LawnStrings.json",
+	"ScriptMethodName" : "split",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "TextProcessorParams", "InputPath" ],
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"SpecificArgs" : [
+		[ "TextProcessorParams", "LawnStringsConfig", "ConverterParams" ]
+	],
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_SPLIT_FILE",
+		"ExecutionSuccessful" : "RESULT_SPLIT_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_SPLIT_FILE_FAILED"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"FuncID" : 3,
+	"FuncName" : "FUNCTION_CHECK_FILE_SIZE",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".cdat" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyCryptors\\Cdat.json",
+	"ScriptMethodName" : "sizeChk",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyCryptorsParams", "InputPath" ],
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"SpecificArgs" : [
+		[ "SexyCryptorsParams", "CdatConfig", "MetadataImportConfig" ]
+	],
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_CHECK_FILE_SIZE",
+	 "ExecutionSuccessful" : "RESULT_CHECK_FILE_SIZE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_CHECK_FILE_SIZE_FAILED"
+	}
+}

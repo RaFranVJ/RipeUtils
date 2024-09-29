@@ -1,0 +1,27 @@
+{
+	"FuncID" : 5,
+	"FuncName" : "FUNCTION_COMPARE_TABLES",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".json" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyUtils\\SexyObj.json",
+	"ScriptMethodName" : "compare",
+	"ArgsType" : "Specific",
+	"IgnoreInputPathOnMethodCalls" : true,
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"SpecificArgs" : [
+	    [ "SexyUtilsParams", "ConfigForObjTables", "ComparerParams", "ComparissonMode" ],
+		[ "SexyUtilsParams", "ConfigForObjTables", "ComparerParams", "SortObjsGeneratedOnComparisson" ],
+		[ "SexyUtilsParams", "ConfigForObjTables", "ComparerParams", "DiffCriteriaForObjs" ],
+		[ "SexyUtilsParams", "ConfigForObjTables", "ComparerParams", "PathToOldTable" ],
+		[ "SexyUtilsParams", "ConfigForObjTables", "ComparerParams", "PathToNewTable" ],
+		[ "SexyUtilsParams", "ConfigForObjTables", "SorterParams" ]
+	 ],
+	"HideFromQuickMode" : true,
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_COMPARE_FILES",
+		"ExecutionSuccessful" : "RESULT_COMPARE_FILES_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_COMPARE_FILES_FAILED"
+	}
+}

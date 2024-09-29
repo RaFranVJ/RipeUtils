@@ -1,0 +1,31 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_DECRYPT_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".cdat" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyCryptors\\Cdat.json",
+	"ScriptMethodName" : "decrypt",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyCryptorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyCryptorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+	    [ "SexyCryptorsParams", "CdatConfig", "CipherKey" ],
+		[ "SexyCryptorsParams", "CdatConfig", "BufferSizeForIOTasks" ],
+		[ "SexyCryptorsParams", "CdatConfig", "Endianness" ],
+		[ "SexyCryptorsParams", "CdatConfig", "CompareSizeBeforeEncryption" ],
+		[ "SexyCryptorsParams", "CdatConfig", "UseSizeInfoForDecryption" ],
+		[ "SexyCryptorsParams", "CdatConfig", "NumberOfBytesToCipher" ],
+		[ "SexyCryptorsParams", "CdatConfig", "DeriveKeys" ],
+		[ "SexyCryptorsParams", "CdatConfig", "SaltValue" ],
+		[ "SexyCryptorsParams", "CdatConfig", "HashType" ],
+		[ "SexyCryptorsParams", "CdatConfig", "IterationsCount" ],
+		[ "SexyCryptorsParams", "CdatConfig", "MetadataExportConfig" ]
+	],
+	"UseOutputPathOnQuickMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_DECRYPT_FILE",
+	 "ExecutionSuccessful" : "RESULT_DECRYPT_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_DECRYPT_FILE_FAILED"
+	}
+}

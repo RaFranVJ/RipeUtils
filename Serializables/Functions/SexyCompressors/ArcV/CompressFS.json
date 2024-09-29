@@ -1,0 +1,27 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_COMPRESS_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".*" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyCompressors\\Arcv.json",
+	"ScriptMethodName" : "compress",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyCompressorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyCompressorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "SexyCompressorsParams", "ArcvConfig", "BufferSizeForIOTasks" ],
+		[ "SexyCompressorsParams", "ArcvConfig", "Endianness" ],
+		[ "FileManagerParams", "FolderOptions", "SearchOptionsForFiles" ],
+		[ "SexyCompressorsParams", "ArcvConfig", "StyleInfo" ],
+		[ "SexyCompressorsParams", "ArcvConfig", "MetadataImportConfig" ]	
+	],
+	"UseOutputPathOnQuickMode" : true,
+	"DisableBatchMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_COMPRESS_FILE",
+	 "ExecutionSuccessful" : "RESULT_COMPRESS_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_COMPRESS_FILE_FAILED"
+	}
+}

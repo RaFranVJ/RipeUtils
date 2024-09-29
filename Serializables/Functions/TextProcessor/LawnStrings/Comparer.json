@@ -1,0 +1,60 @@
+{
+	"FuncID" : 6,
+	"FuncName" : "FUNCTION_COMPARE_LAWNSTRINGS",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".txt", ".json", ".rton" ],
+		"FileNamesToSearch" : [
+			"LawnStrings",
+			"LawnStrings-de-de",
+			"LawnStrings-en-us",
+			"LawnStrings-es-es",
+			"LawnStrings-fr-fr",
+			"LawnStrings-it-it",
+			"LawnStrings-pt-br"
+		]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\TextProcessor\\LawnStrings.json",
+	"ScriptMethodName" : "compare",
+	"ArgsType" : "Specific",
+	"IgnoreInputPathOnMethodCalls" : true,
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"SpecificArgs" : [
+		[
+			"TextProcessorParams",
+			"LawnStringsConfig",
+			"ComparerParams",
+			"ComparissonMode"
+		],
+		[
+			"TextProcessorParams",
+			"LawnStringsConfig",
+			"ComparerParams",
+			"OutputFormat"
+		],
+		[
+			"TextProcessorParams",
+			"LawnStringsConfig",
+			"ComparerParams",
+			"SortStringsGeneratedOnComparisson"
+		],
+		[
+			"TextProcessorParams",
+			"LawnStringsConfig",
+			"ComparerParams",
+			"ConfigForOldFiles"
+		],
+		[
+			"TextProcessorParams",
+			"LawnStringsConfig",
+			"ComparerParams",
+			"ConfigForNewFiles"
+		],
+		[ "TextProcessorParams", "LawnStringsConfig", "SorterParams" ]
+	],
+	"HideFromQuickMode" : true,
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_COMPARE_FILES",
+		"ExecutionSuccessful" : "RESULT_COMPARE_FILES_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_COMPARE_FILES_FAILED"
+	}
+}

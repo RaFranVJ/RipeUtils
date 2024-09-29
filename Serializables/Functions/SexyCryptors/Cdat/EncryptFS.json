@@ -1,0 +1,29 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_ENCRYPT_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".bmp", ".img", ".jpg", ".png" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyCryptors\\Cdat.json",
+	"ScriptMethodName" : "encrypt",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyCryptorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyCryptorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+	    [ "SexyCryptorsParams", "CdatConfig", "CipherKey" ],
+		[ "SexyCryptorsParams", "CdatConfig", "BufferSizeForIOTasks" ],
+		[ "SexyCryptorsParams", "CdatConfig", "Endianness" ],
+		[ "SexyCryptorsParams", "CdatConfig", "NumberOfBytesToCipher" ],
+		[ "SexyCryptorsParams", "CdatConfig", "DeriveKeys" ],
+		[ "SexyCryptorsParams", "CdatConfig", "SaltValue" ],
+		[ "SexyCryptorsParams", "CdatConfig", "HashType" ],
+		[ "SexyCryptorsParams", "CdatConfig", "IterationsCount" ],
+		[ "SexyCryptorsParams", "CdatConfig", "MetadataImportConfig" ]
+	],
+	"UseOutputPathOnQuickMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_ENCRYPT_FILE",
+	 "ExecutionSuccessful" : "RESULT_ENCRYPT_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_ENCRYPT_FILE_FAILED"
+	}
+}

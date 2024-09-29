@@ -1,0 +1,27 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_COMPRESS_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".1bsr", ".rsb", ".rsb1", ".obb" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyCompressors\\Smf.json",
+	"ScriptMethodName" : "compress",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyCompressorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyCompressorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+	    [ "SexyCompressorsParams", "SmfConfig", "CompressionLvl" ],
+		[ "SexyCompressorsParams", "SmfConfig", "BufferSizeForIOTasks" ],
+		[ "SexyCompressorsParams", "SmfConfig", "Endianness" ],
+		[ "SexyCompressorsParams", "SmfConfig", "NumberOfHexBytes" ],
+		[ "SexyCompressorsParams", "SmfConfig", "Adler32Info" ],
+		[ "SexyCompressorsParams", "SmfConfig", "TagConfig" ],
+		[ "SexyCompressorsParams", "SmfConfig", "MetadataImportConfig" ]	
+	],
+	"UseOutputPathOnQuickMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_COMPRESS_FILE",
+	 "ExecutionSuccessful" : "RESULT_COMPRESS_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_COMPRESS_FILE_FAILED"
+	}
+}

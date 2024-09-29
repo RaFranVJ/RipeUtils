@@ -1,0 +1,20 @@
+{
+	"FuncID" : 3,
+	"FuncName" : "FUNCTION_CHECK_FILE_SIZE",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".ptx" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\TextureDrawer\\PackedTexture\\PlayStation\\PS3.json",
+	"ScriptMethodName" : "sizeChk",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "TextureDrawerParams", "InputPath" ],
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"SpecificArgs" : [
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "PtxConfig", "ParamsForPS3", "Endianness" ]
+	],
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_CHECK_FILE_SIZE",
+	 "ExecutionSuccessful" : "RESULT_CHECK_FILE_SIZE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_CHECK_FILE_SIZE_FAILED"
+	}
+}

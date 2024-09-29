@@ -1,0 +1,22 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_DECRYPT_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".*" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyCryptors\\RSA.json",
+	"ScriptMethodName" : "decrypt",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyCryptorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyCryptorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+	    [ "SexyCryptorsParams", "RsaConfig" ]
+	],
+	"UseOutputPathOnQuickMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_DECRYPT_FILE",
+	 "ExecutionSuccessful" : "RESULT_DECRYPT_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_DECRYPT_FILE_FAILED"
+	}
+}

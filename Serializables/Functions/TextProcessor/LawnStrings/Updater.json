@@ -1,0 +1,34 @@
+{
+	"FuncID" : 7,
+	"FuncName" : "FUNCTION_UPDATE_LAWNSTRINGS",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".txt", ".json", ".rton" ],
+		"FileNamesToSearch" : [
+			"LawnStrings",
+			"LawnStrings-de-de",
+			"LawnStrings-en-us",
+			"LawnStrings-es-es",
+			"LawnStrings-fr-fr",
+			"LawnStrings-it-it",
+			"LawnStrings-pt-br"
+		]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\TextProcessor\\LawnStrings.json",
+	"ScriptMethodName" : "update",
+	"ArgsType" : "Specific",
+	"IgnoreInputPathOnMethodCalls" : true,
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"SpecificArgs" : [
+		[ "TextProcessorParams", "LawnStringsConfig", "UpdaterParams", "OutputFormat" ],
+		[ "TextProcessorParams", "LawnStringsConfig", "UpdaterParams", "SortStringsWhenUpdating" ],
+		[ "TextProcessorParams", "LawnStringsConfig", "UpdaterParams", "ConfigForOldFiles" ],
+		[ "TextProcessorParams", "LawnStringsConfig", "UpdaterParams", "ConfigForNewFiles" ],
+		[ "TextProcessorParams", "LawnStringsConfig", "SorterParams" ]
+	],
+	"HideFromQuickMode" : true,
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_UPDATE_FILE",
+		"ExecutionSuccessful" : "RESULT_UPDATE_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_UPDATE_FILE_FAILED"
+	}
+}

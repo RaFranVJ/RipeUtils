@@ -1,0 +1,22 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_COMPRESS_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".packet" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyCompressors\\Rsg.json",
+	"ScriptMethodName" : "compress",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyCompressorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyCompressorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "SexyCompressorsParams", "RsgConfig", "BufferSizeForIOTasks" ],
+		[ "SexyCompressorsParams", "RsgConfig", "Endianness" ]
+	],
+	"ForceSingleMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_COMPRESS_FILE",
+	 "ExecutionSuccessful" : "RESULT_COMPRESS_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_COMPRESS_FILE_FAILED"
+	}
+}

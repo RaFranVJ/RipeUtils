@@ -1,0 +1,26 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_DECOMPRESS_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".1bsr", ".rsb", ".rsb1", ".obb" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyCompressors\\Rsb.json",
+	"ScriptMethodName" : "decompress",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyCompressorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyCompressorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "SexyCompressorsParams", "RsbConfig", "BufferSizeForIOTasks" ],
+		[ "SexyCompressorsParams", "RsgConfig", "ExtractParams" ],
+		[ "SexyCompressorsParams", "RsbConfig", "Endianness" ],
+		[ "SexyCompressorsParams", "RsbConfig", "AdaptCompatibilityBetweenVersions" ],
+		[ "SexyCompressorsParams", "RsbConfig", "StrCaseForResNames" ],
+		[ "SexyCompressorsParams", "RsbConfig", "ExtractParams" ],
+		[ "SexyCompressorsParams", "RsbConfig", "MetadataExportConfig" ]	
+	],
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_DECOMPRESS_FILE",
+	 "ExecutionSuccessful" : "RESULT_DECOMPRESS_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_DECOMPRESS_FILE_FAILED"
+	}
+}

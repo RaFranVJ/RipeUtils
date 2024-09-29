@@ -1,0 +1,23 @@
+{
+	"FuncID" : 3,
+	"FuncName" : "FUNCTION_INTEGRITY_CHECK",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".xnb" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\TextureDrawer\\Xnb.json",
+	"ScriptMethodName" : "integrityChk",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "TextureDrawerParams", "InputPath" ],
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"SpecificArgs" : [
+	    [ "TextureDrawerParams", "ParamsForTextureParsers", "XnbConfig", "IntegrityConfig", "AnalisisType" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "XnbConfig", "Endianness" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "XnbConfig", "XnbVersion", "AdaptCompatibilityBetweenVersions" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "XnbConfig", "DdsVersion", "AdaptCompatibilityBetweenVersions" ]
+	],
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_CHECK_FILE_INTEGRITY",
+	 "ExecutionSuccessful" : "RESULT_CHECK_FILE_INTEGRITY_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_CHECK_FILE_INTEGRITY_FAILED"
+	}
+}

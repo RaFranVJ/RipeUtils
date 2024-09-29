@@ -1,0 +1,19 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_NORMALIZE_TABLE",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".json" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyUtils\\SexyObj.json",
+	"ScriptMethodName" : "normalize",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyUtilsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyUtilsParams", "OutputPath" ],
+	"SpecificArgs" : [],
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_NORMALIZE_FILE",
+		"ExecutionSuccessful" : "RESULT_NORMALIZE_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_NORMALIZE_FILE_FAILED"
+	}
+}

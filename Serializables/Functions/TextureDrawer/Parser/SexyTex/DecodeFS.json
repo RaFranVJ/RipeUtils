@@ -1,0 +1,23 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_DECODE_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".tex" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\TextureDrawer\\SexyTex.json",
+	"ScriptMethodName" : "decode",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "TextureDrawerParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "TextureDrawerParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "SexyTexConfig", "BufferSizeForIOTasks" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "SexyTexConfig", "Endianness" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "SexyTexConfig", "ParserVersion", "AdaptCompatibilityBetweenVersions" ],
+		[ "TextureDrawerParams", "ParamsForTextureParsers", "SexyTexConfig", "MetadataExportConfig" ]
+	],
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_DECODE_FILE",
+		"ExecutionSuccessful" : "RESULT_DECODE_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_DECODE_FILE_FAILED"
+	}
+}

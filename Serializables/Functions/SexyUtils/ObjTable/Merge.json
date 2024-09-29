@@ -1,0 +1,20 @@
+{
+	"FuncID" : 4,
+	"FuncName" : "FUNCTION_MERGE_TABLE",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".split_obj" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyUtils\\SexyObj.json",
+	"ScriptMethodName" : "merge",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyUtilsParams", "InputPath" ],
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"SpecificArgs" : [],
+	"ForceSingleMode" : true,
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_MERGE_FILE",
+		"ExecutionSuccessful" : "RESULT_MERGE_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_MERGE_FILE_FAILED"
+	}
+}

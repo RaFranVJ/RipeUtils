@@ -1,0 +1,23 @@
+{
+	"FuncID" : 4,
+	"FuncName" : "FUNCTION_INTEGRITY_CHECK",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".smf" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyCompressors\\Smf.json",
+	"ScriptMethodName" : "integrityChk",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyCompressorsParams", "InputPath" ],
+	"SpecificArgs" : [
+	    [ "SexyCompressorsParams", "SmfConfig", "IntegrityConfig", "AnalisisType" ],
+		[ "SexyCompressorsParams", "SmfConfig", "MetadataImportConfig" ],
+		[ "SexyCompressorsParams", "SmfConfig", "TagConfig" ],
+		[ "SexyCompressorsParams", "SmfConfig", "Adler32Info" ]
+	],
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_CHECK_FILE_INTEGRITY",
+	 "ExecutionSuccessful" : "RESULT_CHECK_FILE_INTEGRITY_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_CHECK_FILE_INTEGRITY_FAILED"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"FuncID" : 6,
+	"FuncName" : "FUNCTION_UPDATE_TABLE",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".json" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyUtils\\SexyObj.json",
+	"ScriptMethodName" : "update",
+	"ArgsType" : "Specific",
+	"IgnoreInputPathOnMethodCalls" : true,
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"SpecificArgs" : [
+		[ "SexyUtilsParams", "ConfigForObjTables", "UpdaterParams", "SortTablesWhenUpdating" ],
+		[ "SexyUtilsParams", "ConfigForObjTables", "UpdaterParams", "PathToTargetFile" ],
+		[ "SexyUtilsParams", "ConfigForObjTables", "UpdaterParams", "PathToUpdatedFile" ],
+		[ "SexyUtilsParams", "ConfigForObjTables", "SorterParams" ]
+	 ],
+	"HideFromQuickMode" : true,
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_UPDATE_FILES",
+		"ExecutionSuccessful" : "RESULT_UPDATE_FILES_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_UPDATE_FILES_FAILED"
+	}
+}

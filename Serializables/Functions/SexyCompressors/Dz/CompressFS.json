@@ -1,0 +1,30 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_COMPRESS_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".*" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyCompressors\\Dz.json",
+	"ScriptMethodName" : "compress",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyCompressorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyCompressorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+	    [ "SexyCompressorsParams", "DzConfig", "TextEncoding" ],
+		[ "SexyCompressorsParams", "DzConfig", "Endianness" ],
+		[ "SexyCompressorsParams", "DzConfig", "MaxChunkIndex" ],
+		[ "FileManagerParams", "FolderOptions", "SearchOptionsForFiles" ],
+		[ "SexyCompressorsParams", "DzConfig", "ExtensionMethods" ],
+		[ "SexyCompressorsParams", "DzConfig", "CompressorVersion" ],
+		[ "SexyCompressorsParams", "DzConfig", "EntryParams" ],
+		[ "SexyCompressorsParams", "DzConfig", "MetadataImportConfig" ]	
+	],
+	"UseOutputPathOnQuickMode" : true,
+	"DisableBatchMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_COMPRESS_FILE",
+	 "ExecutionSuccessful" : "RESULT_COMPRESS_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_COMPRESS_FILE_FAILED"
+	}
+}

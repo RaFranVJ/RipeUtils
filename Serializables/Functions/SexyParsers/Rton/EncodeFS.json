@@ -1,0 +1,24 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_ENCODE_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".json" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyParsers\\Rton.json",
+	"ScriptMethodName" : "encode",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyParsersParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyParsersParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "SexyParsersParams", "RtonConfig", "UseReferenceStrings" ],
+		[ "SexyParsersParams", "RtonConfig", "Endianness" ],
+		[ "SexyParsersParams", "RtonConfig", "ParserVersion" ],
+		[ "SexyParsersParams", "RtonConfig", "EncoderInfo" ]
+	],
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_ENCODE_FILE",
+		"ExecutionSuccessful" : "RESULT_ENCODE_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_ENCODE_FILE_FAILED"
+	}
+}

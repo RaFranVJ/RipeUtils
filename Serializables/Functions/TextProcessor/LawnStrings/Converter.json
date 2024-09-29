@@ -1,0 +1,29 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_CONVERT_LAWNSTRINGS",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".txt", ".json", ".rton" ],
+		"FileNamesToSearch" : [
+			"LawnStrings",
+			"LawnStrings-de-de",
+			"LawnStrings-en-us",
+			"LawnStrings-es-es",
+			"LawnStrings-fr-fr",
+			"LawnStrings-it-it",
+			"LawnStrings-pt-br"
+		]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\TextProcessor\\LawnStrings.json",
+	"ScriptMethodName" : "convert",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "TextProcessorParams", "InputPath" ],
+	"IgnoreOutputPathOnMethodCalls" : true,
+	"SpecificArgs" : [
+		[ "TextProcessorParams", "LawnStringsConfig", "ConverterParams" ]
+	],
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_CONVERT_FILE",
+		"ExecutionSuccessful" : "RESULT_CONVERT_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_CONVERT_FILE_FAILED"
+	}
+}

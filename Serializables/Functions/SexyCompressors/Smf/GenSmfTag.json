@@ -1,0 +1,20 @@
+{
+	"FuncID" : 3,
+	"FuncName" : "FUNCTION_CREATE_SMF_TAG",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".smf" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyCompressors\\Smf.json",
+	"ScriptMethodName" : "createTag",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyCompressorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyCompressorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "SexyCompressorsParams", "SmfConfig", "TagConfig", "HashedStringCase" ]
+	],
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_GENERATE_TAG",
+	 "ExecutionSuccessful" : "RESULT_GENERATE_TAG_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_GENERATE_TAG_FAILED"
+	}
+}

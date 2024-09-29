@@ -1,0 +1,22 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_ENCRYPT_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".bak", ".bin", ".dat", ".rton", ".section", ".txt" ],
+		"FileNamesToSearch" : [ "drapper_", "local_profiles", "loot", "_saveheader_rton" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyCryptors\\CRton.json",
+	"ScriptMethodName" : "encrypt",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyCryptorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyCryptorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "SexyCryptorsParams", "RtonCryptoInfo" ]
+	],
+	"UseOutputPathOnQuickMode" : true,
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_ENCRYPT_FILE",
+		"ExecutionSuccessful" : "RESULT_ENCRYPT_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_ENCRYPT_FILE_FAILED"
+	}
+}

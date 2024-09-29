@@ -1,0 +1,24 @@
+{
+	"FuncID" : 2,
+	"FuncName" : "FUNCTION_DECODE_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".bak", ".bin", ".dat", ".rton", ".section", ".txt" ],
+		"FileNamesToSearch" : [ "drapper_", "local_profiles", "loot", "_saveheader_rton" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyParsers\\Rton.json",
+	"ScriptMethodName" : "decode",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyParsersParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyParsersParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "SexyParsersParams", "RtonConfig", "UseReferenceStrings" ],
+		[ "SexyParsersParams", "RtonConfig", "Endianness" ],
+		[ "SexyParsersParams", "RtonConfig", "ParserVersion", "AdaptCompatibilityBetweenVersions" ],
+		[ "SexyParsersParams", "RtonConfig", "DecoderInfo" ]
+	],
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_DECODE_FILE",
+		"ExecutionSuccessful" : "RESULT_DECODE_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_DECODE_FILE_FAILED"
+	}
+}

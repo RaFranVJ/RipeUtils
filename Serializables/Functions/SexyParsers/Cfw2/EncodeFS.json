@@ -1,0 +1,21 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_ENCODE_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".json" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyParsers\\Cfw2.json",
+	"ScriptMethodName" : "encode",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyParsersParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyParsersParams", "OutputPath" ],
+	"SpecificArgs" : [
+		[ "SexyParsersParams", "Cfw2Config", "Endianness" ],
+		[ "SexyParsersParams", "Cfw2Config", "ParserVersion" ]
+	],
+	"ProcessMsgs" : {
+		"ExecutionOnProcess" : "ACTION_ENCODE_FILE",
+		"ExecutionSuccessful" : "RESULT_ENCODE_FILE_SUCCESSFUL",
+		"ExecutionFaulted" : "RESULT_ENCODE_FILE_FAILED"
+	}
+}

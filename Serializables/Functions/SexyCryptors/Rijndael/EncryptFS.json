@@ -1,0 +1,28 @@
+{
+	"FuncID" : 1,
+	"FuncName" : "FUNCTION_ENCRYPT_FILESYSTEM",
+	"ArchivesFilter" : {
+		"FileExtensionsToSearch" : [ ".*" ],
+		"FileNamesToSearch" : [ "*" ]
+	},
+	"PathToScriptEntry" : "Serializables\\ScriptEntries\\SexyCryptors\\Rijndael.json",
+	"ScriptMethodName" : "encrypt",
+	"ArgsType" : "Specific",
+	"SpecificPathForInput" : [ "SexyCryptorsParams", "InputPath" ],
+	"SpecificPathForOutput" : [ "SexyCryptorsParams", "OutputPath" ],
+	"SpecificArgs" : [
+	    [ "SexyCryptorsParams", "RijndaelConfig", "CipherKey" ],
+		[ "SexyCryptorsParams", "RijndaelConfig", "DeriveKeys" ],
+		[ "SexyCryptorsParams", "RijndaelConfig", "SaltValue" ],
+		[ "SexyCryptorsParams", "RijndaelConfig", "HashType" ],
+		[ "SexyCryptorsParams", "RijndaelConfig", "IterationsCount" ],
+		[ "SexyCryptorsParams", "RijndaelConfig", "BlockCipherName" ],
+		[ "SexyCryptorsParams", "RijndaelConfig", "CipherPaddingIndex" ]
+	],
+	"UseOutputPathOnQuickMode" : true,
+	"ProcessMsgs" : {
+	 "ExecutionOnProcess" : "ACTION_ENCRYPT_FILE",
+	 "ExecutionSuccessful" : "RESULT_ENCRYPT_FILE_SUCCESSFUL",
+	 "ExecutionFaulted" : "RESULT_ENCRYPT_FILE_FAILED"
+	}
+}
