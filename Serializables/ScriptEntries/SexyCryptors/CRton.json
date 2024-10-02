@@ -10,6 +10,6 @@
         "Flags": 0
     },
 	"TypesToExpose" : {
-		"RtonCryptor" : "ZCore.Modules.SexyCryptor.CRton.RtonCryptor"
+		"RtonCryptor" : "ZCore.Modules.SexyCryptors.CRton.RtonCryptor"
 	}
 }
